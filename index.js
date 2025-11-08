@@ -6,13 +6,13 @@ document.addEventListener("DOMContentLoaded", async () => {
         const v = parseInt(event.target.value);
     });
 
+
+    //roll dice by selection (still using the f12)
     document.getElementById("dice-button").addEventListener("click", () => {
         const v = document.getElementById("dice-type").value;
         const r = GetRandom(1, v);
         console.log(r);
     });
-
-    //dice-button
 
 });
 
